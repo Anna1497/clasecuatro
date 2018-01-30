@@ -1,0 +1,65 @@
+
+/*
+	reset a todos los estilos
+*/
+
+* {
+	margin: 0;
+	padding:0;
+}
+
+body{
+	/*puede ser porcentaje, pixeles*/
+	width:90%;
+	/*dos valorea es vertical - horixontal*/
+	/*tres valores es arriba -lados -abajo */
+	/*
+		cutro valores es arriba - derecha - izquierda - abajo
+		como las manecillas de reloj 
+	*/
+	margin:0 auto;
+	/*display es la forma en que se visualiza, puede ser:
+	Block, inline, inline-block, none (desaparece);*/
+	display: block;
+	/*hacia donde queremos que este el contenido*/
+	float: none;
+	/*los colores se pueden poner en 
+	nombre de color en ingles
+	rgb (red, green, blue) (0-255, 0-255, 0-255)
+	rgba(0,0,0,0.5)
+	hsl (angulo %, saturacion 0-100, luz: 0-100)
+	hsla(40%, 50, 50, .5);
+	hex #ff0000*/
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+22,a90329+50,a90329+83,6d0019+100 */
+background: #a90329; /* Old browsers */
+background: -moz-linear-gradient(top,  #a90329 22%, #a90329 50%, #a90329 83%, #6d0019 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #a90329 22%,#a90329 50%,#a90329 83%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #a90329 22%,#a90329 50%,#a90329 83%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+}
+nav#navegacionPrincipal {
+	background-color: transparent;
+	height: 50px;
+	padding: 20px 00;
+	font-size: 20px;
+	text-align: center;
+	color: green;
+}
+nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 50px
+}
+section div{
+	display: inline-block;
+		width: 49%;
+		height: 300px;
+}
+div img {
+	width: 100%;
+}
+footer{
+	margin-top: 20px
+	background-color: gray;
+	height: 20px;
+}
